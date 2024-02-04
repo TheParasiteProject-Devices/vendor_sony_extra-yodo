@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/extra-yodo/common/proprietary/product/etc/permissions/com.sonymobile.moviecreator.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sonymobile.moviecreator.xml \
     vendor/sony/extra-yodo/common/proprietary/product/etc/permissions/jp.co.sony.mc.usbextoutaudio.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/jp.co.sony.mc.usbextoutaudio.xml \
     vendor/sony/extra-yodo/common/proprietary/product/etc/sysconfig/extmonitorapp-initial-package-stopped-states.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/extmonitorapp-initial-package-stopped-states.xml \
+    vendor/sony/extra-yodo/common/proprietary/product/lib64/libmepstarterjni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmepstarterjni.so \
     vendor/sony/extra-yodo/common/proprietary/system_ext/etc/permissions/com.sonymobile.colorgamut.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.sonymobile.colorgamut.xml
 
 PRODUCT_PACKAGES += \
