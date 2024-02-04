@@ -58,6 +58,15 @@ if [ -z "$SRC" ]; then
     exit 1
 fi
 
+function blob_fixup() {
+    case "${1}" in
+       product/etc/default-permissions/pre_grant_permissions_oem.xml)
+            xmlstarlet ed -L --ps -d '//exceptions//exception[@package="com.facebook.appmanager"]' $2 &
+            sed -i '/For docomo/d' $2 &
+            ;;
+    esac
+}
+
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 

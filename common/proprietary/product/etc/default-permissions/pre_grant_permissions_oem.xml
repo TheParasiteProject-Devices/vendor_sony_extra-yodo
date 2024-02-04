@@ -66,12 +66,8 @@
           In this case, the following permission group can be changed in UI:
            - Calendar
  -->
-
 <exceptions>
-  <!-- For docomo -->
-  <exception package="com.facebook.appmanager">
-    <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
-  </exception>
+  
 
   <!-- Common -->
   <exception package="com.sonymobile.providers.media">
