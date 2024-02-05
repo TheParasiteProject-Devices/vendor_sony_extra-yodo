@@ -1,6 +1,5 @@
 # Apps
 product/app/SomcDualshockManager/SomcDualshockManager.apk;PRESIGNED
-product/app/SomcMediaExtensionProviderStarter/lib/arm64/libmepstarterjni.so
 product/app/SomcMediaExtensionProviderStarter/SomcMediaExtensionProviderStarter.apk;PRESIGNED
 product/lib64/libmepstarterjni.so
 product/priv-app/ExtMonitorApp/ExtMonitorApp.apk;PRESIGNED

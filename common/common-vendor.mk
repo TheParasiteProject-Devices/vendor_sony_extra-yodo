@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/extra-yodo/common
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/extra-yodo/common/proprietary/product/app/SomcMediaExtensionProviderStarter/lib/arm64/libmepstarterjni.so:$(TARGET_COPY_OUT_PRODUCT)/app/SomcMediaExtensionProviderStarter/lib/arm64/libmepstarterjni.so \
     vendor/sony/extra-yodo/common/proprietary/product/etc/default-permissions/pre_grant_permissions_oem.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/pre_grant_permissions_oem.xml \
     vendor/sony/extra-yodo/common/proprietary/product/etc/permissions/com.google.protobuf-2.3.0.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.protobuf-2.3.0.xml \
     vendor/sony/extra-yodo/common/proprietary/product/etc/permissions/com.sonyericsson.music.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sonyericsson.music.xml \
