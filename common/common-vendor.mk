@@ -11,6 +11,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/extra-yodo/common/proprietary/product/etc/permissions/com.sonyericsson.music.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sonyericsson.music.xml \
     vendor/sony/extra-yodo/common/proprietary/product/etc/permissions/com.sonymobile.extmonitorapp.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sonymobile.extmonitorapp.xml \
     vendor/sony/extra-yodo/common/proprietary/product/etc/permissions/com.sonymobile.home.resourceprovider.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sonymobile.home.resourceprovider.xml \
+    vendor/sony/extra-yodo/common/proprietary/product/etc/permissions/com.sonymobile.mmwdiapi.somc-mmwdiapi.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sonymobile.mmwdiapi.somc-mmwdiapi.xml \
     vendor/sony/extra-yodo/common/proprietary/product/etc/permissions/com.sonymobile.moviecreator.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sonymobile.moviecreator.xml \
     vendor/sony/extra-yodo/common/proprietary/product/etc/permissions/jp.co.sony.mc.usbextoutaudio.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/jp.co.sony.mc.usbextoutaudio.xml \
     vendor/sony/extra-yodo/common/proprietary/product/etc/sysconfig/extmonitorapp-initial-package-stopped-states.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/extmonitorapp-initial-package-stopped-states.xml \
@@ -25,4 +26,5 @@ PRODUCT_PACKAGES += \
     UsbExtOutAudio \
     SomcColorGamut \
     com.google.protobuf-2.3.0-dummy \
-    com.sonymobile.home.resourceprovider
+    com.sonymobile.home.resourceprovider \
+    somc-ext-mmwdiapi

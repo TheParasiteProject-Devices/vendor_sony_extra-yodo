@@ -20,5 +20,7 @@ system_ext/etc/permissions/com.sonymobile.colorgamut.xml
 # Frameworks
 product/etc/permissions/com.google.protobuf-2.3.0.xml
 product/etc/permissions/com.sonymobile.home.resourceprovider.xml
+product/etc/permissions/com.sonymobile.mmwdiapi.somc-mmwdiapi.xml
 product/framework/com.google.protobuf-2.3.0-dummy.jar
 product/framework/com.sonymobile.home.resourceprovider.jar
+product/framework/somc-ext-mmwdiapi.jar

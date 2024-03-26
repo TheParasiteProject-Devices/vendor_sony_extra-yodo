@@ -97,3 +97,10 @@ dex_import {
 	product_specific: true,
 }
 
+dex_import {
+	name: "somc-ext-mmwdiapi",
+	owner: "sony/extra-yodo",
+	jars: ["proprietary/product/framework/somc-ext-mmwdiapi.jar"],
+	product_specific: true,
+}
+
